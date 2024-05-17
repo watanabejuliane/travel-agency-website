@@ -1,2 +1,12 @@
 @import 'header.css';
 @import 'global.css';
+
+/* utilitary */
+@import './utilitary/components.css';
+
+/* home */
+@import 'intro.css';
+
+/* travels */
+@import './travels/travel-list.css';
+@import './travels/advantages.css';

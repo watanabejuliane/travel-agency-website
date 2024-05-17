@@ -1,0 +1,83 @@
+.advantages-bg {
+    background-color: #A4AC86;
+    box-shadow: inset 0 80px #344E41, inset 0 -80px #FEFAE0;
+}
+
+.advantages-content {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.advantages {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.mini-title {
+    font: 400 1.5rem/1.5 "Reddit Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #656D4A;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.advantages-content h2 {
+    font: 800 4rem/1.125 "Reddit Sans", sans-serif;
+    color: #344E41;
+    margin-bottom: 32px;
+}
+.advantages-content h2 span {
+    color: #BC6C25;
+}
+
+.advantages-content > .content {
+    font: 400 1.5rem/1.5 "Reddit Sans", sans-serif;
+    color: #616a48;
+}
+
+h3 {
+    font: 400 1.125rem/1.35 "Reddit Sans", sans-serif;
+    color: #344E41;
+    font-weight: 600;
+}
+
+p {
+    font: 400 1rem/1.5 "Reddit Sans", sans-serif;
+    color: #414833;
+    margin-bottom: 20px;
+}
+
+.advantages-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.advantages a {
+    margin-bottom: 80px;
+}
+
+.advantages-topics {
+    display: flex;
+    gap: 40px;
+}
+
+.advantages-topics h3 {
+    margin-bottom: 8px;
+    width: max-content;
+}
+
+.advantages-topics img {
+    width: 24px;
+    margin-bottom: 8px;
+}

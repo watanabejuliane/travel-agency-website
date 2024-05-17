@@ -1,0 +1,95 @@
+.packages-list {
+    background-color: #344E41;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.packages {
+    max-width: 1200px;
+    padding:  40px 20px;
+    margin: 0 auto;
+    color: #FEFAE0;
+}
+
+.packages h2 {
+    font: 800 4rem/1.125 "Reddit Sans", sans-serif;
+    margin-bottom: 40px;
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.packages h2 span {
+    color: #BC6C25;
+}
+
+.packages li h3 {
+    font: 600 2rem/1.125 "Reddit Sans", sans-serif;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    color: #FEFAE0;
+}
+
+.packages li h3::before {
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    background-color: #BC6C25;
+    margin-right: 8px;
+    transition: width 0.2;
+}
+
+.packages li a:hover h3::before {
+    width: 24px;
+}
+
+.packages li span {
+    font: 500 1.125rem/1.35 "Reddit Sans", sans-serif;
+    color: #A3B18A;
+    padding-left: 20px;
+}
+
+.packages-list li {
+    min-width: 280px;
+    flex: 1;
+}
+
+.packages-list ul {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px 20px 20px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+
+.packages-list a {
+    display: block;
+}
+
+.packages-list img {
+    margin-bottom: 16px;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .packages-list {
+        margin-top: -1px;
+        padding-bottom: 60px;
+    }
+
+    .packages-list ul {
+        gap: 20px;
+    }
+    .packages h2 {
+        font-size: 1.8rem;
+    }
+
+}

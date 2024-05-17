@@ -15,7 +15,7 @@
     margin-right: auto;
 }
 .header img {
-    width: 70%;
+    width: 85%;
 }
 
 .header-menu {
@@ -47,16 +47,24 @@
     width: 80%;
 }
 
+
 @media (max-width: 600px) {
     .header-menu {
         gap: 12px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        margin-left: 18%;
+        margin-right: auto;
     }
+
     .header img {
-    width: 60%;
+        margin-left: 10%;
     }
+
     .header-menu a {
         padding: 8px 12px;
-        font-size: 14px;
+        font-size: 16px;
         color: #FEFAE0;
     background-color: #344E41;
     }
