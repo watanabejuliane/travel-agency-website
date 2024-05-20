@@ -1,12 +1,21 @@
 @import 'header.css';
 @import 'global.css';
+@import 'footer.css';
 
 /* utilitary */
 @import './utilitary/components.css';
+@import './utilitary/tipography.css';
+@import './utilitary/colors.css';
 
 /* home */
-@import 'intro.css';
+@import './home/intro.css';
+@import './home/advantages.css';
+@import './home/insurance.css';
+@import './home/partners.css';
+@import './home/testemony.css';
 
 /* travels */
 @import './travels/travel-list.css';
-@import './travels/advantages.css';
+
+/* pages */
+@import './pages/terms.css';

@@ -1,7 +1,7 @@
 body {
     margin: 0px;
-    padding-bottom: 600px;
     font-family: "Reddit Sans", sans-serif;
+    background: #FEFAE0;
 }
 
 ul {
@@ -24,4 +24,8 @@ h1, h2, h3, h3, p, ul{
 
 img[src$=".png"] {
     border-radius: 4px;
+}
+
+blockquote {
+    margin: 0;
 }

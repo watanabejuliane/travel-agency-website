@@ -1,0 +1,81 @@
+
+.footer-container {
+    box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    gap: 40px;
+}
+
+.footer-container img {
+    width: 100%;
+}
+
+.footer-container ul {
+    font-size:500 1.125rem/1.35 "Reddit Sans", sans-serif;
+    color: #344E41;
+}
+
+.footer-contact ul {
+    margin-bottom: 32px;
+}
+
+.footer-contact li{
+    margin-bottom: 16px;
+}
+
+.footer-contact li:nth-child(even):after {
+    content: "";
+    display: block;
+    max-width: 360px;
+    height: 2px;
+    background: #C2C5AA;
+    margin-top: 16px;
+}
+
+.footer-container h3 {
+    font: 400 1.5rem/1.5 "Reddit Sans", sans-serif;
+    color: #678d66;
+    margin-bottom: 32px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-social img {
+    width: 30px;
+}
+
+.footer-copy {
+    font: 500 1.125rem/1.35 "Reddit Sans", sans-serif;
+    color: #678d66;
+    grid-column: 1/-1;
+    margin-top: 40px;
+}
+
+.footer-container a:hover {
+    color: #C2C5AA;
+}
+
+@media (max-width: 600px) {
+    .footer-container h3 {
+        font-size: 1.125rem;
+    }
+    .footer-container>img {
+        display: none;
+    }
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+    .footer-copy {
+        margin-top: 0px;
+    }
+}

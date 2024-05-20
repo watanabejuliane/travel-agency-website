@@ -6,20 +6,22 @@
 
 .packages {
     max-width: 1200px;
-    padding:  40px 20px;
-    margin: 0 auto;
     color: #FEFAE0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .packages h2 {
     font: 800 4rem/1.125 "Reddit Sans", sans-serif;
     margin-bottom: 40px;
-    width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .packages h2 span {
@@ -61,12 +63,12 @@
 
 .packages-list ul {
     display: flex;
-    gap: 40px;
-    padding: 0 20px 20px 20px;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow-x: auto;
+  gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
 }
 
 .packages-list a {
@@ -75,8 +77,6 @@
 
 .packages-list img {
     margin-bottom: 16px;
-    height: 100%;
-    object-fit: cover;
 }
 
 @media (max-width: 600px) {
@@ -89,7 +89,7 @@
         gap: 20px;
     }
     .packages h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
 }

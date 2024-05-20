@@ -1,0 +1,108 @@
+.insurance {
+    box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.insurance-bg {
+    background-color: #A4AC86;
+}
+
+.insurance h2 {
+    font: 600 4rem/1.125 "Reddit Sans", sans-serif;
+    color: #344E41;
+    grid-column: 1/-1;
+}
+
+.insurance-item h3 {
+    font: 600 2rem/1.25 "Reddit Sans", sans-serif;
+    color: #BC6C25;
+    margin-bottom: 40px;
+}
+
+.insurance-item span {
+    grid-column: 2;
+    display: block;
+    text-align: right;
+}
+
+.insurance-item .font-1 {
+    font: 600 2rem/1.25 "Reddit Sans", sans-serif;
+    color: #344E41;
+}
+
+.insurance-item .font-2 {
+    font: 400 0.75rem/1.35 "Reddit Sans", sans-serif;
+    color: #616a48;
+}
+
+.insurance-item .title-1 {
+    color: #588157;
+}
+
+.insurance-item {
+    background-color: #CCD5AE;
+    padding: 32px 32px 32px 60px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.insurance-item li+li {
+    margin-top: 20px;
+}
+
+.insurance-item li {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.insurance-item ul {
+    font: 500 1.125rem/1.35 "Reddit Sans", sans-serif;
+    color: #344E41;
+    grid-column: 1/-1;
+    margin-bottom: 32px;
+}
+
+.insurance-item a {
+    grid-column: 1/-1;
+}
+
+.insurance-item li::before {
+    content: "✔";
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    color: #7F4F24;
+    position: absolute;
+    left: -20px;
+    top: 0px;
+}
+
+@media (max-width: 600px) {
+    .insurance h2 {
+        font-size: 2rem;
+    }
+    
+    .insurance-item h3 {
+        font-size: 1.5rem;
+    }
+
+    .insurance-item .font-1 {
+        font-size: 1.5rem;
+    }
+
+    .insurance {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+}
